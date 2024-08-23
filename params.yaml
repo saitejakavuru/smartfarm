@@ -1,5 +1,5 @@
 RandomForest:
-  n_estimators: 200  # Number of trees in the forest
+  n_estimators: 20  # Number of trees in the forest
   max_depth: 10  # Maximum depth of the tree
   min_samples_split: 2  # Minimum number of samples required to split an internal node
   min_samples_leaf: 1  # Minimum number of samples required to be at a leaf node
