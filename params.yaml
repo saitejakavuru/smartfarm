@@ -1,1 +1,7 @@
-key: val
+RandomForest:
+  n_estimators: 200  # Number of trees in the forest
+  max_depth: 10  # Maximum depth of the tree
+  min_samples_split: 2  # Minimum number of samples required to split an internal node
+  min_samples_leaf: 1  # Minimum number of samples required to be at a leaf node
+  max_features: "sqrt"  # Number of features to consider when looking for the best split
+  bootstrap: True
