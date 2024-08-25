@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crop Recommendation Result</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="static/css/styles.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="card">
+            <div class="card-header text-center">
+                <h2>Recommended Crop</h2>
+            </div>
+            <div class="card-body">
+                <p class="text-center">
+                    Based on the input data, the best crop to plant is:
+                </p>
+                <h3 class="text-center">{{ prediction }}</h3>
+            </div>
+            <div class="card-footer text-center">
+                <a href="/" class="btn btn-primary">Predict Again</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
