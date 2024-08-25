@@ -88,7 +88,7 @@ jobs:
          
       # - name: Stop and remove container if running
       #   run: |
-      #    docker ps -q --filter "name=mlproj" | grep -q . && docker stop mlproj && docker rm -fv mlproj
+      #    docker ps -q --filter "name=smartfarm" | grep -q . && docker stop smartfarm && docker rm -fv smartfarm
        
       - name: Run Docker Image to serve users
         run: |
